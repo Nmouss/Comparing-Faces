@@ -21,6 +21,7 @@ img = cv2.rectangle(input_image, (int(corners[0][0]),int(corners[0][1])), (int(c
 cv2.imshow("face image", img)
 k = cv2.waitKey(0)
 
+# add embedding
 
 # model = keras.Sequential()
 # model.add(keras.layers.Embedding(1000, 128))
