@@ -1,5 +1,6 @@
 from ultralytics import YOLO
 import cv2
+import torch
 # import tensorflow as tf 
 # import keras
 """
