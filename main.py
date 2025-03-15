@@ -7,6 +7,7 @@ from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 import numpy as np
+
 """
 I am creating the input image obj, and face detection obj
 This code will crop faces listed in the directory and append them to a
